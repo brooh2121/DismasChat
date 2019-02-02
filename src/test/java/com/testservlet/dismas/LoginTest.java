@@ -1,6 +1,6 @@
 package com.testservlet.dismas;
 
-import com.testservlet.dismas.controller.MainController;
+import com.testservlet.dismas.controller.MessageController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,7 @@ public class LoginTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private MainController controller;
+    private MessageController controller;
 
     @Test
     public void contextLoads() throws Exception {
